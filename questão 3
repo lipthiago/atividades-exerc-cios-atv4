@@ -1,0 +1,24 @@
+questão 3:
+
+index.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Q3.js"></script>
+</head>
+<body>
+    Aqui
+</body>
+</html>
+
+js (script.js):
+
+let reais = prompt("Digite seu valor em reais (Ultilize ponto final para declarar um valor decimal): ")
+
+conversor2 = reais/5.8;
+
+alert("Seu valor convertido é: "+conversor2);
