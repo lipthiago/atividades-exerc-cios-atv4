@@ -1,0 +1,24 @@
+questão 2:
+
+inex.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Q2.js"></script>
+</head>
+<body>
+    Aqui
+</body>
+</html>
+
+js (scripts.js):
+
+let dolar = prompt("Digite seu valor em dolar: ")
+
+conversor = dolar*5.80;
+
+alert("Seu valor convertido é: "+conversor)
