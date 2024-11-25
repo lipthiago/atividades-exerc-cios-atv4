@@ -1,0 +1,27 @@
+questão 4:
+
+inex.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Q4.js"></script>
+</head>
+<body>
+    Aqui
+</body>
+</html>
+
+js (scripts.js):
+
+let saldo = prompt("Digite seu saldo (Ultilize ponto final para declarar um valor decimal): ")
+
+saldo = parseFloat(saldo)
+
+reajuste = (saldo*0.01)+saldo
+
+
+alert("Seu salddo com reajute ficou: "+reajuste);
