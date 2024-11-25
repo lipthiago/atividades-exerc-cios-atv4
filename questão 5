@@ -1,0 +1,24 @@
+questão 5:
+
+inex.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Q5.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
+
+js (scripts.js):
+
+let i = prompt("Digite o valor do prouto (Ultilize ponto final para declarar um valor decimal): ")
+
+i = parseFloat(i)
+
+reajuste = i
