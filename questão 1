@@ -1,0 +1,30 @@
+questão 1:
+
+index.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Q1.js"></script>
+</head>
+<body>
+    Aqui
+</body>
+</html>
+
+js (script.js):
+
+let i = prompt("Digite sua primeira nota: ")
+let ii = prompt("Digite sua segunda nota: ")
+let iii = prompt("Digite ua terceira nota: ")
+
+i = parseFloat(i)
+ii = parseFloat(ii)
+iii = parseFloat(iii)
+
+media = (i+ii+iii)/3;
+ 
+alert("Sua média é: "+media)
